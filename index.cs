@@ -10,7 +10,9 @@ using System.Text.RegularExpressions;
             
             var s = "hello world! This is my home";
             var n = String.Join(" ", s.Split(' ').Reverse().ToArray());
-            if(n.Contains("hello")){
+            
+            if(n.Contains("hello"))
+            {
               int index = n.IndexOf("hello");
               Console.WriteLine("Found at position: " + index);
             }
