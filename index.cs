@@ -8,7 +8,7 @@ using System.Text.RegularExpressions;
         public static void Main(string[] args)
         {
             
-            var s = "hello world! This is my home";
+            var s = "hello world! This hello is my hello home";
             var n = String.Join(" ", s.Split(' ').Reverse().ToArray());
             
             if(n.Contains("hello"))
